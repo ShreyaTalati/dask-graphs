@@ -50,7 +50,6 @@ def waste_time(t, i):
               inner_end_t - inner_start_t, flush=True)
 
 
-
 def create_graph(num_levels):
     dsk = {}
 
@@ -58,15 +57,14 @@ def create_graph(num_levels):
     for level in range(num_levels):
         tasks_in_level = 2 ** (level)
         for i in range(tasks_in_level):
-            task_idx = (2 * num_levels - level, i)
+            # task_idx = (2 * num_levels - level, i)
             dependencies = []
             if level > 0:
                 dependency = (2 * num_levels - level + 1, i // 2)
                 dependencies.append(dependency)
-            # dsk[f"output_{level}_{i}"] = (waste_time, (level, i))
-            dsk[(level, i, 'output')] = (waste_time, level, i)
-            dsk[(level, i, 'dependencies')] = [(level, i_dep, 'output') for i_dep in dependencies
-                                           if 0 <= i_dep < tasks_in_level]
+
+            dsk[(2 * num_levels - level, i, 'output')] = (waste_time, 2 * num_levels - level, i)
+            dsk[(2 * num_levels - level, i, 'dependencies')] = [(i_dep[0], i_dep[1], 'output') for i_dep in dependencies]
             
     # Reduction phase
     for level in range(num_levels - 1, -1, -1):
@@ -74,8 +72,7 @@ def create_graph(num_levels):
         print("tasks in level", tasks_in_level)
 
         for i in range(tasks_in_level):
-            # Task ID:
-            task_idx = (level, i)
+            # task_idx = (level, i)
             
             # Task Dependencies
             dependencies = []
@@ -84,8 +81,7 @@ def create_graph(num_levels):
                 dependencies.append(dependency)
 
             dsk[(level, i, 'output')] = (waste_time, level, i)
-            dsk[(level, i, 'dependencies')] = [(level, i_dep, 'output') for i_dep in dependencies
-                                           if 0 <= i_dep < tasks_in_level]
+            dsk[(level, i, 'dependencies')] = [(i_dep[0], i_dep[1], 'output') for i_dep in dependencies]
 
     return dsk
 
