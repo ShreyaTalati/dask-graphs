@@ -54,7 +54,7 @@ def create_graph(num_levels):
     dsk = {}
 
     # Scatter phase
-    for level in range(num_levels):
+    for level in range(num_levels + 1):
         tasks_in_level = 2 ** (level)
         for i in range(tasks_in_level):
             # task_idx = (2 * num_levels - level, i)
@@ -95,9 +95,9 @@ if __name__ == '__main__':
         start_t = time.perf_counter()
         dsk = create_graph(args.steps)
         # dask_graph.get([(t, i, 'output') for t in range(num_tasks) for i in range(num_tasks)])
-        result = get(dsk, [(t, i, 'output') for t in range(args.steps) for i in range(args.steps)])
+        result = get(dsk, [(0, 0, 'output')])
         end_t = time.perf_counter()
         elapsed_t = end_t - start_t
-        dask.visualize(dsk, filename='dask_graph_stencil', format='png', engine="cytoscape")
+        # dask.visualize(dsk, filename='dask_graph_stencil', format='png', engine="cytoscape")
         print(', '.join([str(args.workers), str(args.steps), str(args.t),
               str(args.accesses), str(args.frac), str(elapsed_t)]), flush=True)

@@ -50,15 +50,14 @@ def waste_time(t, i):
               inner_end_t - inner_start_t, flush=True)
 
 
-
-def create_graph(num_tasks):
+def create_graph(steps, width):
     dsk = {}
-    for t in range(num_tasks):
-        for i in range(num_tasks):
+    for t in range(steps):
+        for i in range(width):
             dependencies = [i, i - 1]
             dsk[(t, i, 'output')] = (waste_time, t, i)
             dsk[(t, i, 'dependencies')] = [(t, i_dep, 'output') for i_dep in dependencies
-                                           if 0 <= i_dep < num_tasks]
+                                           if 0 <= i_dep < width]
 
     return dsk
 
@@ -70,10 +69,12 @@ if __name__ == '__main__':
 
     with dask.config.set(pool=ThreadPoolExecutor(args.workers)):
         start_t = time.perf_counter()
-        dsk = create_graph(args.steps)
-        result = get(dsk, [(t, i, 'output') for t in range(args.steps) for i in range(args.steps)])
+        dsk = create_graph(args.steps, args.width)
+        result = get(dsk, [(args.steps - 1, args.width - 1, 'output')])
+        # dask_graph.get([(t, i, 'output') for t in range(num_tasks) for i in range(num_tasks)])
+        # result = get(dsk, [(t, i, 'output') for t in range(args.steps) for i in range(args.steps)])
         end_t = time.perf_counter()
         elapsed_t = end_t - start_t
-        # dask.visualize(dask_graph, filename='dask_graph_sweep', format='png')
+        # dask.visualize(dsk, filename='dask_graph_stencil', format='png', engine="cytoscape")
         print(', '.join([str(args.workers), str(args.steps), str(args.t),
               str(args.accesses), str(args.frac), str(elapsed_t)]), flush=True)

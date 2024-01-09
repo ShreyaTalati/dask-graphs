@@ -50,14 +50,15 @@ def waste_time(t, i):
               inner_end_t - inner_start_t, flush=True)
 
 
-def create_graph(num_tasks):
+def create_graph(steps, width):
     dsk = {}
-    for t in range(num_tasks):
-        for i in range(num_tasks):
-            dependencies = [i, i - 2 ** t, i + 2 ** t]
+    for t in range(steps + 1):
+        for i in range(width):
+            step = 2 ** (steps - t)
+            dependencies = [i, i - step, i + step]
             dsk[(t, i, 'output')] = (waste_time, t, i)
             dsk[(t, i, 'dependencies')] = [(t, i_dep, 'output') for i_dep in dependencies
-                                           if 0 <= i_dep < num_tasks]
+                                           if 0 <= i_dep < width]
 
     return dsk
 
@@ -68,8 +69,8 @@ if __name__ == '__main__':
 
     with dask.config.set(pool=ThreadPoolExecutor(args.workers)):
         start_t = time.perf_counter()
-        dsk = create_graph(args.steps)
-        result = get(dsk, [(t, i, 'output') for t in range(args.steps) for i in range(args.steps)])
+        dsk = create_graph(args.steps, args.width)
+        result = get(dsk, [(args.step, args.width - 1, 'output')])
         end_t = time.perf_counter()
         elapsed_t = end_t - start_t
         print(', '.join([str(args.workers), str(args.steps), str(args.t),
