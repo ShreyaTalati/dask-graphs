@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=sweep_dask
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=rtx
+#SBATCH --time=05:00:00
+#SBATCH --output=%j.out
+
+module load cuda
+source /work2/09233/stalati/frontera/miniconda3/etc/profile.d/conda.sh
+conda activate parla_fall23
+
+export PARLA_PREINT_THREADS=0
+export PARLA_ENABLE_PYTHON_RUNAHEAD=0
+
+bash launcher.sh script.py args.txt
+

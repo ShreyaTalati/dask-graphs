@@ -1,0 +1,7 @@
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 32000, 5, 0.0125, 130.0659358240664

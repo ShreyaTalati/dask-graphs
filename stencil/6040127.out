@@ -1,0 +1,1260 @@
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 1000, 1, 0.0, 18.981282182969153
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 1000, 1, 0.0, 10.307052886113524
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 1000, 1, 0.0, 5.697479954920709
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 1000, 1, 0.0, 3.4946930734440684
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 1000, 1, 0.0, 3.5285823298618197
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 2000, 1, 0.0, 35.66073334868997
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 2000, 1, 0.0, 18.41221881005913
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 2000, 1, 0.0, 9.664719832129776
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 2000, 1, 0.0, 5.372654025442898
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 2000, 1, 0.0, 3.8476087925955653
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 4000, 1, 0.0, 69.29898566938937
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 4000, 1, 0.0, 34.42068803496659
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 4000, 1, 0.0, 17.658079179003835
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 4000, 1, 0.0, 9.297229489311576
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 4000, 1, 0.0, 5.557549805380404
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 8000, 1, 0.0, 132.7470571892336
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 8000, 1, 0.0, 66.44308689702302
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 8000, 1, 0.0, 33.696266278624535
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 8000, 1, 0.0, 17.284357419237494
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 8000, 1, 0.0, 9.700666286982596
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 16000, 1, 0.0, 259.4204269926995
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 16000, 1, 0.0, 130.46185317542404
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 16000, 1, 0.0, 65.67837493401021
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 16000, 1, 0.0, 33.30302164517343
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 16000, 1, 0.0, 18.241773790679872
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 32000, 1, 0.0, 515.7039528433233
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 32000, 1, 0.0, 258.5256044426933
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 32000, 1, 0.0, 129.64660513121635
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 32000, 1, 0.0, 65.33675875607878
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 32000, 1, 0.0, 35.26836220640689
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 64000, 1, 0.0, 1028.1045174179599
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 64000, 1, 0.0, 514.6112910173833
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 64000, 1, 0.0, 257.8293575644493
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 64000, 1, 0.0, 129.3812453560531
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 64000, 1, 0.0, 69.48733949661255
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 1000, 5, 0.0, 19.489271027967334
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 1000, 5, 0.0, 10.573206985369325
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 1000, 5, 0.0, 6.0347462091594934
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 1000, 5, 0.0, 3.8912613103166223
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 1000, 5, 0.0, 4.718662587925792
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 2000, 5, 0.0, 35.32282853405923
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 2000, 5, 0.0, 18.437766543589532
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 2000, 5, 0.0, 9.850995275191963
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 2000, 5, 0.0, 5.580455319024622
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 2000, 5, 0.0, 4.26876708958298
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 4000, 5, 0.0, 69.3529945248738
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 4000, 5, 0.0, 34.481860370375216
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 4000, 5, 0.0, 17.688197490759194
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 4000, 5, 0.0, 9.373169893398881
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 4000, 5, 0.0, 5.735626073554158
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 8000, 5, 0.0, 131.86213127709925
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 8000, 5, 0.0, 66.54567557107657
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 8000, 5, 0.0, 33.72019995003939
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 8000, 5, 0.0, 17.392475843429565
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 8000, 5, 0.0, 9.76390158943832
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 16000, 5, 0.0, 259.83385458867997
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 16000, 5, 0.0, 130.61444096639752
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 16000, 5, 0.0, 65.79070991463959
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 16000, 5, 0.0, 33.324322478845716
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 16000, 5, 0.0, 18.29590016975999
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 32000, 5, 0.0, 515.4453711556271
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 32000, 5, 0.0, 258.570977717638
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 32000, 5, 0.0, 129.80525120906532
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 32000, 5, 0.0, 65.36363800708205
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 32000, 5, 0.0, 35.32058245316148
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 64000, 5, 0.0, 1028.0442578867078
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 64000, 5, 0.0, 514.528485538438
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 64000, 5, 0.0, 257.8593972492963
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 64000, 5, 0.0, 129.4425305109471
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 64000, 5, 0.0, 69.5088368859142
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 1000, 1, 0.0125, 19.05108164716512
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 1000, 1, 0.0125, 10.30928354524076
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 1000, 1, 0.0125, 5.8585583213716745
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 1000, 1, 0.0125, 3.5598030826076865
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 1000, 1, 0.0125, 3.808818854391575
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 2000, 1, 0.0125, 35.076703887432814
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 2000, 1, 0.0125, 18.52000303566456
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 2000, 1, 0.0125, 9.842081181704998
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 2000, 1, 0.0125, 5.5510666789487
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 2000, 1, 0.0125, 4.317323884926736
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 4000, 1, 0.0125, 67.78469315636903
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 4000, 1, 0.0125, 34.833540273830295
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 4000, 1, 0.0125, 18.010950323194265
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 4000, 1, 0.0125, 9.540080146864057
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 4000, 1, 0.0125, 5.858479239046574
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 8000, 1, 0.0125, 131.9311516424641
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 8000, 1, 0.0125, 66.8043426508084
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 8000, 1, 0.0125, 34.48695189598948
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 8000, 1, 0.0125, 17.99968626536429
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 8000, 1, 0.0125, 10.115015204064548
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 16000, 1, 0.0125, 259.55694022309035
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 16000, 1, 0.0125, 132.21190948598087
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 16000, 1, 0.0125, 67.80183352995664
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 16000, 1, 0.0125, 35.06061965506524
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 16000, 1, 0.0125, 19.385970320552588
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 32000, 1, 0.0125, 516.6699937107041
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 32000, 1, 0.0125, 262.4531800728291
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 32000, 1, 0.0125, 131.91627526003867
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 32000, 1, 0.0125, 66.96898085903376
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 32000, 1, 0.0125, 37.23915131762624
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 64000, 1, 0.0125, 1028.550823061727
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 64000, 1, 0.0125, 522.1337428512052
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 64000, 1, 0.0125, 261.4159627882764
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 64000, 1, 0.0125, 131.66202768869698
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 1 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_1__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 64000, 1, 0.0125, 73.77399368304759
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 1000, 5, 0.0125, 20.07720204256475
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 1000, 5, 0.0125, 10.57565225660801
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 1000, 5, 0.0125, 6.019730613566935
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 1000, 5, 0.0125, 4.005628720857203
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 1000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_1000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 1000, 5, 0.0125, 4.989885956980288
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 2000, 5, 0.0125, 35.822342495433986
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 2000, 5, 0.0125, 18.473227235488594
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 2000, 5, 0.0125, 9.815575819462538
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 2000, 5, 0.0125, 5.634821738116443
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 2000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_2000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 2000, 5, 0.0125, 5.268408115953207
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 4000, 5, 0.0125, 67.93157750368118
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 4000, 5, 0.0125, 34.530800772830844
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 4000, 5, 0.0125, 17.78797153569758
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 4000, 5, 0.0125, 9.53715416137129
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 4000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_4000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 4000, 5, 0.0125, 6.026271857321262
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 8000, 5, 0.0125, 131.5373229244724
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 8000, 5, 0.0125, 66.58784031309187
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 8000, 5, 0.0125, 33.85172263160348
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 8000, 5, 0.0125, 17.408770505338907
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 8000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_8000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 8000, 5, 0.0125, 9.938385847955942
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 16000, 5, 0.0125, 259.7744013518095
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 16000, 5, 0.0125, 130.7663868702948
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 16000, 5, 0.0125, 65.96776368748397
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 16000, 5, 0.0125, 33.501393414102495
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 16000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_16000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 16000, 5, 0.0125, 18.472255947999656
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 32000, 5, 0.0125, 516.3879683893174
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 32000, 5, 0.0125, 258.6284804744646
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 32000, 5, 0.0125, 130.0659358240664
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 32000, 5, 0.0125, 65.71245599910617
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 32000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_32000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 32000, 5, 0.0125, 35.47187423333526
+Running script script.py with arguments: -workers 1 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_1__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+1, 500, 64000, 5, 0.0125, 1028.778936333023
+Running script script.py with arguments: -workers 2 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_2__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+2, 500, 64000, 5, 0.0125, 514.9291925616562
+Running script script.py with arguments: -workers 4 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_4__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+4, 500, 64000, 5, 0.0125, 258.1576951574534
+Running script script.py with arguments: -workers 8 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_8__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+8, 500, 64000, 5, 0.0125, 129.84454526845366
+Running script script.py with arguments: -workers 15 -sleep 1 -strong 0 -steps 500 -isync 0 -restrict 0 -t 64000 -deps 1 -frac 0.0125 -accesses 5 -width 32
+Saving output to: output/_workers_15__sleep_1__strong_0__steps_500__isync_0__restrict_0__t_64000__deps_1__frac_0.0125__accesses_5__width_32.txt
+USE_PYTHON_RUNAHEAD:  False
+CUPY_ENABLED:  True
+CROSSPY_ENABLED:  False
+PREINIT_THREADS:  True
+DEFAULT SYNC:  SynchronizationType.NONE
+workers, n, task_time, accesses, frac, total_time
+15, 500, 64000, 5, 0.0125, 69.78697465267032
